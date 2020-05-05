@@ -18,7 +18,7 @@ To enable the user to place virtual content on a horizontal surface, you set the
 
 ``` swift
 func setGoal() {
-    coachingOverlay.goal = .horizontalPlane
+    coachingOverlay?.goal = .horizontalPlane
 }
 ```
 [View in Source](x-source-tag://CoachingGoal)
@@ -31,7 +31,7 @@ To make sure the coaching overlay provides guidance to the user whenever ARKit d
 
 ``` swift
 func setActivatesAutomatically() {
-    coachingOverlay.activatesAutomatically = true
+    coachingOverlay?.activatesAutomatically = true
 }
 ```
 [View in Source](x-source-tag://CoachingActivatesAutomatically)
@@ -319,3 +319,4 @@ func coachingOverlayViewDidRequestSessionReset(_ coachingOverlayView: ARCoaching
 [15]:https://developer.apple.com/documentation/scenekit/scnnode/2881868-simdworldtransform
 [16]:https://developer.apple.com/documentation/arkit/arraycastresult/3132062-worldtransform
 [17]:https://developer.apple.com/documentation/arkit/artrackedraycast/3132069-stoptracking
+# arkit
